@@ -32,28 +32,7 @@ export const Message = async (req, res) => {
       "i love you": "That’s sweet! I’m here to help you anytime.",
       "where are you from": "I live in the cloud — no rent, no bills!",
       "what can you do": "I can chat with you, answer questions, and keep you company.",
-      
-      "what is python":
-        "Python is a high-level, interpreted programming language known for simplicity...",
-      "what is java?":
-        "Java is a platform-independent, object-oriented programming language...",
-      "what is recursion":
-        "Recursion is when a function calls itself to solve smaller parts of a problem...",
-      "who is prime minister of india?":
-        "Narendra Modi is the Prime Minister of India since May 2014.",
-      "what is g20":
-        "The G20 is an intergovernmental forum of 19 countries + EU...",
-      "tell me about yourself":
-        "This is usually the first interview question...",
-      "why should we hire you":
-        "HR wants to see your value-add...",
-      "what is leadership":
-        "Leadership is the ability to inspire and guide others...",
-      "who is virat kohli":
-        "Virat Kohli is one of India’s greatest batsmen...",
-      "what is ipl":
-        "The Indian Premier League (IPL) is a professional T20 cricket league..."
-    };
+};
 
     // normalize user text
     const normalizedText = text.toLowerCase().trim();
