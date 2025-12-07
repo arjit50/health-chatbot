@@ -1,12 +1,17 @@
 import React from 'react'
 import Bot from './component/Bot'
+import SignUp from './pages/SignUp'
 
 function App() {
 
   // javascript code goes here!!
 
   return (
-    <div><Bot/></div>
+    <div>
+      <SignUp/>
+      {/* <Bot/> */}
+      </div>
+    
   )
 }
 
