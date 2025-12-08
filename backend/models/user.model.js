@@ -1,20 +1,20 @@
 import mongoose from "mongoose";
 
 const userSchema=new mongoose.Schema({
-    name:{
+    sender:{
         type:String,
-        require:true
+        required:true,
+        enum:["user"]
     },
-    email:{
+    text:{
         type:String,
-        required:true,
+        required:true
+    },
+    timstamp:{
+        type:Date,
+        default:Date.now
     }
-    ,
-    password:{
-        type:String,
-        required:true,
-    }
-},{timestamps:true})
+})
 
 const User=mongoose.model("User",userSchema)
 export default User;
